@@ -2,15 +2,230 @@ body {
     margin: 0;
 }
 .menu.stripe {
-    background-color: black;
-}
-.menu-entry {
-    font-color: red;
-    margin: 0px 10px 0px 10px;
-}
-.menu-entry .icon {
+    background-color: rgb(48, 48, 48);
+    height: 44px;
     text-align: center;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
 }
-.menu-entry .image {
+.hamburger {
+    display: none;
+    padding: 0px;
+    float: left;
+    position: absolute;
+    top: 6px;
+    left: 16px;
+}
+.hamburger ul{
+    padding-left: 0px;
+}
+.hamburger li {
+    width: 17px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 6px;
+    list-style: none;
+}
+.menu-entry.text {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 38px;
+    margin-top: 4px;
+}
+.menu-entry.text a {
+    text-decoration: none;
+    color: white;
+}
+.menu-entry.icon {
+    margin: 38px;
+    vertical-align: middle;
+}
+.menu-entry.image {
+    margin: 38px;
+    vertical-align: middle;
+}
+.iphonexr.cont.stripe {
+    height: 650px; 
+    background-image: url('images/iphonexr.jpg');
+    background-size: 692px 426px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin-top: 0px;
+}
+.iphonexr.cont.stripe img {
+    vertical-align:middle;
+    height: 28px ;
+    width: 179px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.promotext {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    height: 30px;
+    margin-bottom: 80px;
+    line-height: 1.33;
+}
+
+.buylearnmore {
+    padding: 10px;
+    color: #0070c9;
+    font-weight: 400;
+    font-size: 21px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+}
+.iphonexs.stripe {
+    height: 650px;
+    text-align: center; 
+    background-image: url('images/iphonexs.jpg');
+    background-size: 974px 387px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+.iphonexs.stripe img {
+    vertical-align:middle;
+    height: 28px ;
+    width: 179px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.applecard.stripe {
+    height: 650px;
+    text-align: center; 
+    background-image: url('images/applecard.jpg');
+    background-size: 1068px 698px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    line-height:29px;
+}
+.applecard.stripe img {
+    vertical-align:middle;
+    height: 43px ;
+    width: 257px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.applecard.stripe div {
+    font-weight: 400;
+    font-size: 27px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin-bottom: 10px;
+}
+.featuredbox {
     text-align: center;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    width: 48%;
+    height: 580px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 10px 10px 10px;
+}
+.featuredbox.one {
+    background-image: url('images/boxone.jpg');
+    background-size: 100% 580px;
+}
+.featuredbox.one img {
+    height: 31px;
+    width: 143px;
+    vertical-align:middle;
+    margin-top: 50px;
+    margin-bottom: 20px;   
+}
+.featuredbox div {
+    font-weight: 400;
+    font-size: 21px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.featuredbox span {
+    font-weight: 400;
+    font-size: 17px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 10px;
+    color: #ffffff;
+}
+.featuredbox.two {
+    background-image: url('images/appletv.jpg');
+}
+.featuredbox.two img {
+    height: 31px;
+    width: 80px;
+    vertical-align:middle;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.featuredbox.three {
+    background-image: url('images/arcadeimg.jpg');
+}
+.featuredbox.three img {
+    height: 33px;
+    width: 149px;
+    vertical-align:middle;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.featuredbox.four {
+    background-image: url('images/musicbgr.jpg');
+    position: relative;
+}
+.featuredbox.four img {
+    height: 33px;
+    width: 149px;
+    vertical-align:middle;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.featuredbox.four img.musicicon {
+    height: 37px;
+    width: 37px;
+    position: absolute;
+    left: 50%;
+    bottom: 7%;
+    transform: translateX(-50%);
+}
+.featuredbox.five {
+    background-image: url('images/watchbgr.jpg');
+}
+.featuredbox.five img {
+    height: 59px;
+    width: 146px;
+    vertical-align:middle;
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+.featuredbox.five div {
+    color: #111;
+}
+.featuredbox.five span {
+    color: #0070c9;
+}
+.featuredbox.six {
+    background-image: url('images/airpodsbgr.jpg');
+}
+.featuredbox.six div:first-child {
+    font-size:40px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color:#111;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.featuredbox.six div:nth-child(2) {
+    font-weight: 400;
+    font-size: 21px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-bottom: 10px;
+    color: #111;
+}
+.featuredbox.six span {
+    color: #0070c9;
 }
