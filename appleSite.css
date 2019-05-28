@@ -6,4 +6,11 @@ body {
 }
 .menu-entry {
     font-color: red;
+    margin: 0px 10px 0px 10px;
+}
+.menu-entry .icon {
+    text-align: center;
+}
+.menu-entry .image {
+    text-align: center;
 }
