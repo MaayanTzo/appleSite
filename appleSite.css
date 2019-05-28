@@ -229,3 +229,74 @@ body {
 .featuredbox.six span {
     color: #0070c9;
 }
+.footer.stripe {
+    height: 585px;
+    position: relative;
+    text-align: center;
+    font-weight:400;
+    font-size: 12px;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.footer.stripe p {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 15px;
+    color: #888;
+}
+
+.footer.stripe p:nth-child(2) {
+    padding-top:5px;
+}
+
+.footer.stripe hr {
+    width: 60%;
+    color: rgba(136, 136, 136, 0.685);
+}
+.footer.stripe .container  {
+    display: flex;
+    text-align:center;
+    position: relative;
+    left: 18%;
+}
+
+.footer.stripe ul {
+    list-style: none;
+    text-align:left;
+    font-size: 1em;
+    margin-right:3%;
+    color:#555;
+    display: inline-block;
+}
+.footer.stripe .columntwo {
+    margin-right: 3%;
+}
+.footer.stripe .columntwo ul {
+    display: inline;
+}
+.footer.stripe .columnthree {
+    margin-right: 3%;
+}
+.footer.stripe .columnthree ul {
+    display: inline;
+}
+
+.footer.stripe .columnfour ul {
+    display: inline;
+}
+.footer.stripe li {
+    margin-bottom: .8em;
+}
+.footer.stripe li:first-child {
+    color: rgba(29, 28, 28, 0.966);
+    font-weight:bold;
+}
+.footer.stripe .bottomfooter  {
+    text-align: left;
+    padding-top: 10px;
+    color: #888;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+}
