@@ -229,3 +229,130 @@ body {
 .featuredbox.six span {
     color: #0070c9;
 }
+.footer {
+    font-size: 12px;
+    line-height: 1.33341;
+    font-weight: 400;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 17px;
+}
+.footer_top_writing {
+    border-bottom: 1px solid #d6d6d6;
+    padding: 17px 0px 11px;
+}
+.footer_top_writing_list {
+    list-style: none;
+    color: #888;
+    padding-left: 0px;
+    margin: 0px;
+}
+.footer_top_writing_list_element {
+    padding-bottom: 9.6px;
+}
+.footer_a {
+    text-decoration: none;
+    color: #555;
+
+}
+.footer_columns {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 20px;
+}
+.footercolumn {
+    display: inline-block;
+    flex-basis: 25%;
+}
+.footer_column_title {
+    margin-bottom: 9.6px;
+}
+.footer_column_title.middle {
+    padding-top: 24px;
+}
+.footer_column_list {
+    list-style: none;
+    margin-right: 60px;
+    padding: 0px;
+}
+.footer_column_list_element {
+    margin-bottom: 9.6px;
+    box-sizing: content-box;
+    color: #888;
+}
+.small-footer {
+    display: none;
+    color: #888;
+}
+.footer-bottom-writing {
+    padding-top: 34px;
+    padding-bottom: 9.6px;
+    color: #888;
+}
+.footer-bottom-writing a {
+    text-decoration: none;
+    color: blue;
+}
+.footer-bottom-writing2 {
+    color: #888;
+    border-top: 1px solid #d6d6d6;
+    padding-top: 9.6px;
+    padding-bottom: 34px;
+}
+.footer-bottom-writing2 a{
+    text-decoration: none;
+    color: #333;
+}
+#footerbottom1 {
+    padding-left: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #333;
+}
+#footerbottom2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #333;
+}
+#footerbottom3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #333;
+}
+#footerbottom4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #333;
+}
+#footerbottom5 {
+    padding-left: 10px;
+}
+#footerflag {
+    float: right;
+}
+#footerflag img {
+    height: 16px;
+    padding-top: 4px;
+    padding-right: 4px;
+}
+a:hover {
+    text-decoration-line: underline;
+}
+.menu.stripe a:hover {
+    color: gray;
+    text-decoration-line: none;
+}
+.iphonexr_campaign.stripe a:hover {
+    text-decoration-line: underline;
+}
+.iphonexr.stripe a:hover {
+    text-decoration-line: underline;
+}
+.iphonexs.stripe a:hover {
+    text-decoration-line: underline;
+}
+.watch.stripe a:hover {
+    text-decoration-line: underline;
+}
