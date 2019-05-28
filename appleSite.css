@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+}
+.menu.stripe {
+    background-color: black;
+}
+.menu-entry {
+    font-color: white;
+}
