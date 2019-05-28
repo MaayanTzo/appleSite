@@ -2,8 +2,49 @@ body {
     margin: 0;
 }
 .menu.stripe {
-    background-color: black;
+    background-color: rgb(48, 48, 48);
+    height: 44px;
+    text-align: center;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
 }
-.menu-entry {
-    font-color: red;
+.hamburger {
+    display: none;
+    padding: 0px;
+    float: left;
+    position: absolute;
+    top: 6px;
+    left: 16px;
+}
+.hamburger ul{
+    padding-left: 0px;
+}
+.hamburger li {
+    width: 17px;
+    height: 1px;
+    background-color: white;
+    margin-bottom: 6px;
+    list-style: none;
+}
+.menu-entry.text {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 38px;
+    margin-top: 4px;
+}
+.menu-entry.text a {
+    text-decoration: none;
+    color: white;
+}
+.menu-entry.icon {
+    margin: 38px;
+    vertical-align: middle;
+}
+.menu-entry.image {
+    margin: 38px;
+    vertical-align: middle;
 }
